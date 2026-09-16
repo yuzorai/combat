@@ -1,0 +1,53 @@
+{
+  "name": "server-authoritative-combat-prototype",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "TS": {
+        "$path": "include"
+      },
+      "MovementCombat": {
+        "$className": "Folder",
+        "MovementCombatConfig": {
+          "$className": "ModuleScript",
+          "$path": "out/shared/MovementCombatConfig.luau"
+        },
+        "Remotes": {
+          "$className": "Folder",
+          "ActionRequest": {
+            "$className": "RemoteEvent"
+          },
+          "ActionAck": {
+            "$className": "RemoteEvent"
+          },
+          "ActionBroadcast": {
+            "$className": "RemoteEvent"
+          }
+        }
+      }
+    },
+    "ServerScriptService": {
+      "MovementCombatServer": {
+        "$className": "Script",
+        "$path": "out/server/MovementCombatServer.server.luau"
+      },
+      "MovementCombatDashGate": {
+        "$className": "ModuleScript",
+        "$path": "out/server/MovementCombatDashGate.luau"
+      },
+      "MovementCombatTests": {
+        "$className": "ModuleScript",
+        "$path": "out/server/MovementCombatTests.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "MovementCombatClient": {
+          "$className": "LocalScript",
+          "$path": "out/client/MovementCombatClient.client.luau"
+        }
+      }
+    }
+  }
+}

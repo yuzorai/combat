@@ -1,0 +1,17 @@
+{
+  "name": "server-authoritative-combat-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Roblox-ts and Rojo port of a server-authoritative combat prototype.",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "check": "rbxtsc --noInclude"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.873",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.3"
+  }
+}

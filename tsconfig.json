@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleDetection": "force",
+    "moduleResolution": "node",
+    "noLib": true,
+    "outDir": "out",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ESNext",
+    "types": ["types"],
+    "typeRoots": ["node_modules/@rbxts"],
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "paths": {
+      "shared/*": ["shared/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
