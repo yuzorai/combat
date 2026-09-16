@@ -1,5 +1,10 @@
 # Server-authoritative combat
 
+### Guide
+
+- src for typescript code
+- out for compiled typescript code/luau
+
 ## Demo videos
 
 - Playtest recording — https://youtu.be/b50KLsry2d8
