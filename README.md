@@ -14,6 +14,6 @@
 
 -The menu also tracks the server-validated 3-hit punch combo. Each landed hit advances through a different punch variation: Punch V1, Punch V2, then Punch V3.
 
-->A = Accepted — server approved the dash request.
-->R = Rejected — server denied it, usually due to cooldown, stale/invalid nonce, or an action already running.
-->E = Executed — the accepted dash reached its finish handler.
+>-A = Accepted — server approved the dash request.
+>-R = Rejected — server denied it, usually due to cooldown, stale/invalid nonce, or an action already running.
+>-E = Executed — the accepted dash reached its finish handler.
